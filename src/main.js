@@ -73,20 +73,4 @@ function handleDeleteToggle(e) {
 form.addEventListener("submit", handleAdd)
 lista.addEventListener("click", handleDeleteToggle)
 
-// Funzionalità per mantenere la dimensione anche ingrandendo/rimpicciolendo
-const main = document.querySelector("main")
-const zoomIniziale = window.devicePixelRatio
-
-function keepSize() {
-  const zoomAttuale = window.devicePixelRatio
-
-  const scala = zoomIniziale / zoomAttuale
-
-  main.style.transform = `scale(${scala})`
-  main.style.transformOrigin = "top center"
-}
-
-window.addEventListener("resize", keepSize)
-keepSize()
-
 render()

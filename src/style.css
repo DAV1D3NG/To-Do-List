@@ -1,27 +1,27 @@
-
 body {
   font-family: system-ui, 'Times New Roman', Times, sans-serif;
   background: #f0f4f8;
   color: #263445;
   margin: 0;
-  padding: 35px 18px;
+  padding: 35px 20px;
+  zoom: 125%;
 }
 
 main {
-  max-width: 480px;
+  max-width: 600px;
   margin: 0 auto;
-  background: #ffffff;
+  background: white;
   border-radius: 14px;
-  padding: 28px 26px 32px;
+  padding: 30px 25px 30px;
   border: 1px solid #dce5ed;
   box-sizing: border-box;
-  box-shadow: 0 3px 12px rgba(40, 60, 80, 0.08);
+  box-shadow: 0 5px 10px rgba(40, 60, 80, 0.1);
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 25px;
   color: #245b73;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 form {
@@ -32,29 +32,29 @@ form {
 
 input {
   flex: 1;
-  padding: 11px 13px;
+  padding: 10px 15px;
   border: 1px solid #cbd5df;
-  border-radius: 7px;
-  font-size: 14px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 input:focus {
-  outline: 2px solid #8ac8c5;
+  outline: 1px solid #8ac8c5;
   border-color: #4b9c9a;
 }
 
 button {
-  padding: 10px 17px;
+  padding: 10px 15px;
   border: none;
-  border-radius: 7px;
+  border-radius: 10px;
   background: #397f91;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #ffffff;
+  background: white;
   color: #397f91;
   border: 1px solid #397f91;
 }
@@ -68,8 +68,8 @@ ul {
 li {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 6px;
+  gap: 10px;
+  padding: 10px 5px;
   border-bottom: 1px solid #e2e8ee;
   cursor: pointer;
 }
@@ -86,9 +86,9 @@ li.fatto .titolo {
 .elimina {
   background: #edf1f5;
   color: #405365;
-  border-radius: 6px;
+  border-radius: 5px;
   padding: 5px 10px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .elimina:hover {
@@ -97,7 +97,7 @@ li.fatto .titolo {
 }
 
 #info {
-  margin: 17px 0 0;
-  font-size: 13px;
+  margin: 15px 0 0;
+  font-size: 15px;
   color: #82909e;
 }
